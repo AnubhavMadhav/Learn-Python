@@ -23,3 +23,34 @@ print(s[3]*2)
 # Length of a String
 print(len(s))
 print(len(s1))
+
+
+
+
+"""Slicing a String"""
+# Something like SubString in Java
+
+# Slicing a String
+print(s[0:5])       # do not counts the elements at last index mention i.e.'5'
+
+print(s[0:])        # counts till the last
+
+print(s[:8])        # counts from the beginning
+
+print(s[-3:-1])     # '-1' represents the last element. Here, it is 'v' and '-3' is 'h'. Also, it won't count the last elements, therefore only "ha"
+
+
+
+# Steps in Slicing
+print(s[0:9:2])     # from 0 to 8 with the gap of '1'
+
+print(s[0:9:3])     # from 0 to 8 with the gap of '2'
+
+
+print(s[15::-1])    # from end to beginning i.e. in reverse with no gap. Also, completely reversed the String
+
+print(s[15::-2])    # from end to beginning i.e. in reverse order with a gap of '1'
+
+
+# Reversing a String using Slicing
+print(s[::-1])      
