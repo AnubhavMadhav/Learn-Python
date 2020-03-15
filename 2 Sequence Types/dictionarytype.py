@@ -1,4 +1,4 @@
-'''Dictionary has keys not index. We can use keys as integers or as strings too'''
+'''Dictionary is a key-value pair. It has keys not index. We can use keys as integers or as strings too'''
 
 
 # Create a Dictionary
