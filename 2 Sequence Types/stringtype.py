@@ -54,3 +54,18 @@ print(s[15::-2])    # from end to beginning i.e. in reverse order with a gap of 
 
 # Reversing a String using Slicing
 print(s[::-1])      
+
+
+
+"""Stripping the Spaces"""
+# kind of Trim() in Java
+
+s2 = " Hello Anubhav "
+
+print(s2)               # Prints String with spaces on both left and right of it
+
+print(s2.strip())       # Removes the spaces from both sides of the String
+
+print(s2.lstrip())      # Removes the space only from left side of the String
+
+print(s2.rstrip())      # Removes the space only from right side of the String
