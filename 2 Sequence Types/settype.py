@@ -46,3 +46,20 @@ print(s.update([15]) )    # ouputs "None" and do not ouputs '15' as an added ele
 
 
 # print(s.remove("Kittu"))
+
+
+
+'''Frozen Set'''
+''' We cannot update() or remove() elements from a Frozen Set. We can just navigate and print the elements from a Frozen Set using a for loop'''
+
+# Set to FrozenSet
+s1 = {1,2,3,335,6.7,'Anubhav'}
+f = frozenset(s1)               # Converting a Set to a Frozen Set
+print(f)                        # Output: frozenset({1, 2, 3, 6.7, 'Anubhav', 335})
+
+# f.update(5)                   #  Shows error because AttributeError: 'frozenset' object has no attribute 'update'
+
+# f.remove(2)                   #  Shows error because AttributeError: 'frozenset' object has no attribute 'remove'
+
+
+
