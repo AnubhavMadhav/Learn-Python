@@ -69,3 +69,45 @@ print(s2.strip())       # Removes the spaces from both sides of the String
 print(s2.lstrip())      # Removes the space only from left side of the String
 
 print(s2.rstrip())      # Removes the space only from right side of the String
+
+
+
+
+
+
+"""Few More String Methods"""
+
+
+
+# Find a character or Substring
+print(s.find("Anu"))        # Prints the Starting Index of the searched SubString
+
+print(s.find("ANU"))        # It's Case Sensitive, so no result i.e. '-1'
+
+print(s.find("Anu",2,6))    # ("String to be searched", start_index_for_search, end_index_for _search)
+
+print(s.find("Anu",2,8))    # SubString is Found
+
+
+
+# Count 
+print(s.count('a'))         # It is also Case Sensitive
+
+print(s.count('Anu'))
+
+
+
+# Replace
+print(s.replace("am",'amm'))
+
+
+
+# Upper, Lower and Title Case
+print(s.upper())
+
+print(s.lower())
+
+print(s.title())        # 1st letter of each word is capital, rest is small
+
+
+
