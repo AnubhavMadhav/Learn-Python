@@ -49,3 +49,15 @@ print(tpl.count(40))
 
 # Find Index of given element
 print(tpl.index("Anu"))         # Prints index of the given element in the Tuple
+
+
+
+
+
+"""List to Tuple"""
+lst = [1,2,3.4,"Kittu"]
+print(lst)
+print(type(lst))
+tpl1 = tuple(lst)       # Converting a List to a Tuple
+print(tpl1)
+print(type(tpl1))
