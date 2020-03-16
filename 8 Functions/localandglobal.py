@@ -10,3 +10,11 @@ def display():
 print(x)        # accessed global variable
 
 display()       # called the function
+
+
+'''Assigned function to a variable'''
+z = display
+
+z()     # Reusing the variable to call the function as many times as wanted
+z()
+z()
