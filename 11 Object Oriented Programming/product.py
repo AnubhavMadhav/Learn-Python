@@ -6,15 +6,21 @@ class Product:
         self.description = 'Laptop, i7, 8th Gen, 8 GB RAM, 512 GB SSD'
         self.price = 91000
 
-p1 = Product()
+    def display(self):                          # Added an Instance function to print, so that we don't need to print each and every entity for every object separately
+        print(self.name)
+        print(self.description)
+        print(self.price)
 
-print(p1.name)
-print(p1.description)
-print(p1.price)
+p1 = Product()
+p1.display()
+
+# print(p1.name)
+# print(p1.description)
+# print(p1.price)
 
 
 p2 = Product()
-
-print(p2.name)
-print(p2.description)
-print(p2.price)
+p2.display()
+# print(p2.name)
+# print(p2.description)
+# print(p2.price)
