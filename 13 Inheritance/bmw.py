@@ -32,7 +32,7 @@ class FiveSeries(BMW):
         self.parkingAssistEnabled = parkingAssistEnabled
 
 
-t = ThreeSeries(True, 'GTR', '15x', 2018)
+t = ThreeSeries(True, 'GTR', '15x', 2018)               # This is dynamic typing, so we get runtime polymorphism for free, since we need not mention the name of the class on left side as in Java
 print(t.cruiseControlEnabled)
 print(t.make)
 print(t.model)
@@ -46,3 +46,9 @@ print(f.parkingAssistEnabled)
 print(f.make)
 print(f.model)
 print(f.year)
+
+
+
+'''Runtime Polymorphism'''
+
+# Since the variable types ar dynamic we can get that runtime kind of polymorphism for free
