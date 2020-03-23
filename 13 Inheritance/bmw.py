@@ -13,19 +13,22 @@ class BMW:
 
 class ThreeSeries(BMW):
     def __init__(self, cruiseControlEnabled, make, model, year):
-        BMW.__init__(self, make, model, year)
+        super().__init__(make, model, year)                 # Using super() inbuilt function to use constructor of parent class
+        # or  # BMW.__init__(self, make, model, year)       # In case, if we do not want to use super(), we can use this i.e. using name of parent class
         self.cruiseControlEnabled = cruiseControlEnabled
 
     def display(self):
         print(self.cruiseControlEnabled)
 
     def start(self):                            # Overriding - This method will override the start() method of parent class, i.e. this method will be executed
+        super().start()                         # This will execute start() of parent class, i.e. it will print "Car is Starting"
         print("Button Start")                   # Same function name but different functionality
 
 
 class FiveSeries(BMW):
     def __init__(self, parkingAssistEnabled, make, model, year):
-        BMW.__init__(self, make, model, year)
+        super().__init__(make, model, year)
+        # or # BMW.__init__(self, make, model, year)
         self.parkingAssistEnabled = parkingAssistEnabled
 
 
