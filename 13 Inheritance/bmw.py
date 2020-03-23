@@ -19,6 +19,9 @@ class ThreeSeries(BMW):
     def display(self):
         print(self.cruiseControlEnabled)
 
+    def start(self):                            # Overriding - This method will override the start() method of parent class, i.e. this method will be executed
+        print("Button Start")                   # Same function name but different functionality
+
 
 class FiveSeries(BMW):
     def __init__(self, parkingAssistEnabled, make, model, year):
