@@ -1,3 +1,5 @@
+'''Duck Typing Demo calling callTalk(obj) function, where 'obj' can be of any class'''
+
 class Duck:
     def talk(self):
         print("Quack Quack")
