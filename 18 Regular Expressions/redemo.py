@@ -30,7 +30,7 @@ Tak
  # We cannot use the group() method if the result returned is 'None'
 
 # Split a given string into multiple strings and returns a list
-result = re.split(r'\d+', str)         # 'd' is digit and '+' is more than 1 digit
+result = re.split(r'\d+', str)         # 'd' is digit and '+' is more than 1 digit          # split() - removes the substring mentioned in regular expression
 print(result)               # Output: ['Take up ', ' one ', ' idea.One  ', 'idea at a time']
 
 result = re.sub(r'idea','Time',str)         # substitute - sub() replaces all the substrings with the given string according to the regular expression passed
