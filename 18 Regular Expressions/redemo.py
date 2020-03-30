@@ -33,3 +33,5 @@ Tak
 result = re.split(r'\d+', str)         # 'd' is digit and '+' is more than 1 digit
 print(result)               # Output: ['Take up ', ' one ', ' idea.One  ', 'idea at a time']
 
+result = re.sub(r'idea','Time',str)         # substitute - sub() replaces all the substrings with the given string according to the regular expression passed
+print(result)
