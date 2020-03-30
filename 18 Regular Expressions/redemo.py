@@ -1,3 +1,5 @@
+'''Sequence Characters: \d \D \s \S \w \W \b \A \Z'''
+
 import re
 
 str = "Take up 1 one 23 idea.One  567idea at a time"

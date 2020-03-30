@@ -5,7 +5,7 @@ str = "Take up 1 One 23 idea.One  567idea at a time Only"
 result = re.findall(r'O\w+',str)            # '+' - one or more repititions
 print(result)
 
-result = re.findall(r'O\w*',str)            # '*' -
+result = re.findall(r'O\w*',str)            # '*' - any number of repititions
 print(result)
 
 result = re.findall(r'O\w?',str)            # '?' - zero or one repititionn
