@@ -1,3 +1,4 @@
+'''Serializing'''
 import pickle, student
 
 f = open("student.dat","wb")
