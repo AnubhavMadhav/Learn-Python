@@ -4,7 +4,8 @@ class BookMyBus:
 
     def __init__(self, availableSeats):
         self.availableSeats = availableSeats
-        self.l = Lock()                         # This is the Lock() function used to perform 'Synchronization using Lock'
+        self.l = Lock()      # This is the Lock() function used to perform 'Synchronization using Lock'
+        # self.l = Semaphore()                  # This can also work instead of using Lock()
 
     def buy(self, seatsRequested):
         self.l.acquire()                        # A lock is acquired for a thread so that no other thread can access the buy() method until the current thread releases the buy() method
