@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\reacttut"
+		},
+		{
+			"path": "..\\..\\..\\..\\Documents\\vs_code"
+		},
+		{
+			"path": "..\\..\\..\\..\\Documents\\java file"
+		},
+		{
+			"path": "..\\..\\..\\..\\Documents\\Python Scripts"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "C C++",
+		"files.exclude": {
+			"**/.classpath": true,
+			"**/.project": true,
+			"**/.settings": true,
+			"**/.factorypath": true
+		}
+	}
+}
